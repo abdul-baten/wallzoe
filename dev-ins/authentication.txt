@@ -1,0 +1,16 @@
+# Start
+
+# Create model
+# Create controller
+# Configure strategy
+# Store auth info into database
+# Use info for operation
+# Testing
+
+# End
+
+
+* Pending
+
+* Ensure long lasting access token
+* Find solution If someone add page or group after authentication what happen

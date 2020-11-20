@@ -1,0 +1,100 @@
+.WallzoeFileUploader {
+  h2 {
+    font-weight: 400;
+    font-size: 1rem;
+    margin-top: 10px;
+    color: rgba(0, 0, 0, 0.54);
+  }
+  .dzu-dropzone {
+    overflow: hidden;
+    border: 1px solid #eee;
+    background-color: #fafafa;
+    flex-direction: initial;
+    flex-wrap: wrap;
+  }
+  .dzu-dropzoneActive {
+    background-color: hsl(120, 100%, 78%);
+  }
+  .dzu-inputLabel {
+    font-weight: normal;
+    font-size: 1.2rem;
+    letter-spacing: 2px;
+    color: #555;
+    text-indent: -9999999999999px;
+  }
+  .dzu-previewContainer {
+    padding: 10px;
+    flex-basis: 150px;
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-direction: column;
+    border: 1px solid #ddd;
+    margin: 15px;
+  }
+  .dzu-previewImage {
+    width: 100%;
+    height: auto;
+    max-height: initial;
+    max-width: 100%;
+  }
+  .dzu-previewStatusContainer {
+    margin-top: 10px;
+
+    progress {
+      height: 10px;
+      display: block;
+      /* Important Thing */
+      -webkit-appearance: none;
+      border: none;
+      width: 60px;
+    }
+
+    /* All good till now. Now we'll style the background */
+    progress::-webkit-progress-bar {
+      background: #ddd;
+      border-radius: 5px;
+      box-shadow: 0 1px 0px 0 rgba(255, 255, 255, 0.2);
+    }
+
+    /* Now the value part */
+    progress::-webkit-progress-value {
+      border-radius: 50px;
+      box-shadow: inset 0 1px 1px 0 rgba(255, 255, 255, 0.4);
+      background: -webkit-linear-gradient(
+          45deg,
+          transparent,
+          transparent 33%,
+          rgba(0, 0, 0, 0.1) 33%,
+          rgba(0, 0, 0, 0.1) 66%,
+          transparent 66%
+        ),
+        -webkit-linear-gradient(top, rgba(255, 255, 255, 0.25), rgba(0, 0, 0, 0.2)),
+        -webkit-linear-gradient(left, hsl(120, 63%, 50%), hsl(120, 67%, 60%));
+
+      /* Looks great, now animating it */
+      background-size: 25px 14px, 100% 100%, 100% 100%;
+      -webkit-animation: move 5s linear 0 infinite;
+    }
+  }
+  .dzu-inputLabelWithFiles {
+    flex-basis: 150px;
+    margin: 15px;
+    height: 150px;
+    align-self: center;
+    background: transparent;
+    border: 2px solid;
+    color: #555;
+    font-size: 1.2rem;
+  }
+  .WallzoeEditBtn {
+    padding: 0px 7px;
+    font-size: 0.8rem;
+    background: #3792dd;
+    color: #eee;
+    border-radius: 3px;
+    margin-left: 7px;
+    cursor: pointer;
+    width: 35px;
+    text-align: center;
+  }
+}

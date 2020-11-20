@@ -1,0 +1,11 @@
+.AccountList {
+  .Active {
+    background-color: rgba(0, 0, 0, 0.08);
+  }
+  a:hover {
+    text-decoration: none;
+  }
+  .ListAvatar {
+    position: relative;
+  }
+}

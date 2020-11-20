@@ -1,0 +1,17 @@
+{
+  "socialmedia": {
+    "provider": "social media",
+    "brandColor": "#4267B2",
+    "callbackPath": "/social-media"
+  },
+  "projectmanager": {
+    "provider": "project manager",
+    "brandColor": "#E94057",
+    "callbackPath": "/projects"
+  },
+  "photoeditor": {
+    "provider": "photo editor",
+    "brandColor": "#1DA1F2",
+    "callbackPath": "/photo-editor"
+  }
+}

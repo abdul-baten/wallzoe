@@ -1,0 +1,16 @@
+.AddPostDialog {
+  .CloseBtn {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    padding: 4px;
+  }
+  .DialogTitle {
+    padding: 15px 40px 0;
+    text-align: center;
+    h2 {
+      color: #444;
+      font-weight: 400;
+    }
+  }
+}

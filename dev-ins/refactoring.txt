@@ -1,0 +1,4 @@
+# Refactor model.findOneAndUpdate method's options
+# material-ui-pickers is deprecated should be replace with @material-ui/pickers
+# use react-dropzone for uploading image
+# repalce weak file uploader reactjs-file-uploader

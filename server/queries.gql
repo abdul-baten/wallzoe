@@ -1,0 +1,71 @@
+# sign up user
+mutation {
+  signUp(
+    username: "test"
+    email: "test2@test.com"
+    password: "AAaa!!11"
+    confirmPassword: "AAaa!!11"
+  ) {
+    _id
+    email
+  }
+}
+# sign in user
+mutation {
+  signIn(usernameOrEmail: "test@gmail.com", password: "111") {
+    _id
+    username
+    email
+  }
+}
+mutation {
+  signIn(usernameOrEmail: "test", password: "AAaa!!11") {
+    _id
+    username
+    email
+  }
+}
+
+# social accounts
+query {
+  socialAccounts
+}
+
+# sign out user
+mutation {
+  signOut
+}
+
+# add post
+mutation {
+  addPost(
+    accountType: "facebook"
+    accountId: "239847932784"
+    accessToken: "asdkflksdjfkdsfj2983479324792387498324"
+    scheduleAt: 60786543
+    tzOffset: 60
+    textContent: "Post dummy textContent"
+    files: File # file object
+  ) {
+    accountType
+    accountId
+    accessToken
+    scheduleAt
+    tzOffset
+    isPublished
+    textContent
+    files {
+      imgUrls
+      vidUrls
+    }
+  }
+}
+
+# temporary data
+mutation {
+  setAuthFor(authFor: "facebook-group")
+}
+
+query {
+  getAuthFor
+}

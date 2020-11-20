@@ -1,0 +1,55 @@
+.SingleItem {
+  cursor: pointer;
+}
+.Item {
+  padding: 1em;
+  font-size: 1.2rem;
+  color: black;
+}
+.header {
+  padding: 0 0 .5em 0;
+  background-position: 0.5em center;
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  border-bottom: 1px solid #d9d9d9;
+  border-radius: 0.5rem 0.5rem 0 0;
+  position: relative;
+  text-align: center;
+  font-size: 1.4em;
+}
+.body {
+  margin-bottom: -1.5em;
+  flex:1;
+  overflow: hidden;
+  height: 90%;
+  background: top center no-repeat;
+  background-size: 100%;
+  justify-content: center;
+}
+.cardName {
+  font-size: 1.4rem;
+}
+.cardIcon {
+  width: 7rem;
+  height: 7rem;
+  margin: 1rem auto 1em auto;
+  padding: 0;
+  align-self: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cardIconSvg {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+  background-position: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+.cardDesc {
+  font-size: .9rem;
+  text-align: center;
+  text-shadow: 0 0 1rem #fff;
+  padding-bottom: 1rem;
+}

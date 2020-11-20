@@ -1,0 +1,86 @@
+.panel {
+  padding: 0 1.6rem;
+  margin: 0 auto 10rem;
+  max-width: 48em;  
+}
+
+.centered {
+  text-align: center;
+  position: relative;
+}
+
+.title {
+  margin-bottom: 0.625em;
+  margin-top: 1.25em;
+  font-weight: normal;
+  color: #877457;
+  position: relative;
+  z-index: 0;
+  &::before {
+    content:"";
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+    z-index: -1;
+  }
+  > span {
+    background: #fff7fe;
+    display: inline-block;
+    padding: 0 0.5em;
+  }
+}
+
+.projectToolbar {
+  position: absolute;
+  top: 0;
+  left: auto;
+  right: 0;
+  z-index: 4;
+  color: #000;
+}
+
+.projectToolbarNew {
+  left: 0;
+  right: auto;
+}
+
+.projectBtn {
+  display: inline-block;
+  padding: 0.5em 1em;
+  vertical-align: middle;
+  text-decoration: none;
+  text-align: center;
+  white-space: normal;
+  background-color: #fff;
+  max-width: 100%;
+  border: 1px solid #d9d9d9;
+  line-height: 1.5;
+  box-sizing: border-box;
+  &:hover {
+    background-color: #fff7fe;
+  }
+}
+
+.projectBtnSlideActive {
+  background-color: #dedede;
+}
+
+.projectBtnNew {
+  border-radius: 1.5em;
+}
+
+.projectSlate {
+  margin-bottom: 2.5em;
+  margin-top: 0.625em;
+  text-align: center;
+  margin: 3rem auto;
+  width: 80%;
+}
+
+.projectEndLine {
+  margin: 0;
+  border: 0;
+  border-bottom: 1px solid #e5e5e5;
+}

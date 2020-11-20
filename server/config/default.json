@@ -1,0 +1,34 @@
+{
+  "SSLKeyPath": "/../../SSL/dev/key.pem",
+  "SSLCrtPath": "/../../SSL/dev/cert.pem",
+  "logFilePath": "/../../logs/combine.log",
+  "expressLogFilePath": "/../../logs/express.log",
+  "exceptionsLogFilePath": "/../../logs/exceptions.log",
+  "authFailureRedirectPath": "/new-social-account",
+  "authSuccessRedirectPath": "/",
+  "facebook": {
+    "APIEndpoint": "https://graph.facebook.com/v4.0",
+    "clientID": "clientId",
+    "clientSecret": "clientSecret",
+    "callbackPath": "/auth/facebook/callback",
+    "pageAuthPath": "/auth/facebook/page",
+    "groupAuthPath": "/auth/facebook/group"
+  },
+  "instagram": {
+    "clientID": "clientId",
+    "clientSecret": "clientSecret",
+    "callbackPath": "/auth/instagram/callback"
+  },
+  "twitter": {
+    "consumerKey": "consumerKey",
+    "consumerSecret": "consumerSecret",
+    "callbackPath": "/auth/twitter/callback"
+  },
+  "linkedin": {
+    "clientID": "clientId",
+    "clientSecret": "clientSecret",
+    "callbackPath": "/auth/linkedin/callback",
+    "pageAuthPath": "/auth/linkedin/page",
+    "profileAuthPath": "/auth/linkedin/profile"
+  }
+}

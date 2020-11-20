@@ -1,0 +1,171 @@
+.WallzoePhotoEditorDialog {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  z-index: 1100;
+  left: 0;
+  top: 0;
+  .tui-image-editor-container.left .tui-image-editor-controls {
+    width: 100px;
+  }
+  .tui-image-editor-container.left .tui-image-editor-main-container {
+    left: 100px;
+    width: calc(100% - 100px);
+  }
+  .PhotoEdito_toolbox-seperator {
+    display: block;
+    width: 80%;
+    height: 1px;
+    background-color: #333;
+    margin: 5px auto;
+  }
+  .tui-image-editor-container .tui-image-editor-controls svg > use {
+    display: block;
+  }
+
+  // extending switch button
+  .tui-image-editor-container .tui-image-editor-checkbox input + label:before {
+    width: 30px;
+    border-radius: 15px;
+    background-color: rgba(238, 238, 238, 0.6);
+    transition: 0.1s ease-in;
+  }
+  .tui-image-editor-container .tui-image-editor-checkbox input + label::after {
+    content: '';
+    width: 20px;
+    height: 20px;
+    background: #cccccc;
+    position: absolute;
+    left: -8px;
+    top: 3px;
+    border-radius: 50%;
+    transition: 0.1s ease-in;
+  }
+  .tui-image-editor-container
+    .tui-image-editor-checkbox
+    input[type='checkbox']:checked
+    + label:before {
+    background-image: none;
+    background-size: initial;
+    background: rgba(220, 0, 78, 0.6);
+  }
+  .tui-image-editor-container
+    .tui-image-editor-checkbox
+    input[type='checkbox']:checked
+    + label:after {
+    background: rgb(220, 0, 78);
+    left: -19px;
+  }
+
+  .tui-image-editor-container.left .tui-image-editor-checkbox-wrap.fixed-width,
+  .tui-image-editor-container.right .tui-image-editor-checkbox-wrap.fixed-width,
+  .tui-image-editor-container .tui-image-editor-checkbox-group,
+  .tui-image-editor-container .tui-image-editor-submenu-item > li {
+    width: 300px;
+    padding: 0 20px;
+  }
+  .tui-image-editor-container .tui-image-editor-submenu-align label {
+    width: 85px;
+  }
+  .tui-image-editor-container
+    .tui-image-editor-submenu-align:first-child
+    label {
+    width: 100px;
+  }
+  .tui-image-editor-container .tui-image-editor-submenu-align label {
+    padding-left: 20px;
+  }
+  .tui-image-editor-container
+    .filter-color-item
+    .tui-image-editor-checkbox
+    label::before {
+    left: -24px;
+  }
+  .tui-image-editor-container
+    .filter-color-item
+    .tui-image-editor-checkbox
+    label::after {
+    left: -12px;
+  }
+  .tui-image-editor-container
+    .filter-color-item
+    .tui-image-editor-checkbox
+    input[type='checkbox']:checked
+    + label:after {
+    left: -24px;
+  }
+  .tui-image-editor-container .tui-colorpicker-palette-preview {
+    text-indent: -999999999px;
+  }
+  .tui-image-editor-container .filter-color-item .color-picker-control {
+    height: 160px !important;
+  }
+  .tui-image-editor-container .tui-image-editor-header-buttons {
+    margin-right: 20%;
+    float: left;
+  }
+  .tui-image-editor-container
+    .tui-image-editor-header-buttons
+    .WallzoePhotoEditorBackButton,
+  .tui-image-editor-container
+    .tui-image-editor-header-buttons
+    .WallzoePhotoEditorDoneButton,
+  .tui-image-editor-container
+    .tui-image-editor-header-buttons
+    .WallzoePhotoEditorCancelButton,
+  .tui-image-editor-container
+    .tui-image-editor-header-buttons
+    .load_button_wrapper,
+  .tui-image-editor-container
+    .tui-image-editor-header-buttons
+    .WallzoePhotoEditorFacebookShareButton {
+    display: inline-block;
+    width: auto;
+    height: auto;
+    line-height: 1.1;
+    border-radius: 3px;
+    font-size: 1.2rem;
+    padding: 8px 20px;
+    text-transform: capitalize;
+    background: transparent;
+    font-weight: 400;
+    border: none;
+    color: #eee;
+    border: 1px solid;
+    margin-left: 15px;
+    background-color: transparent;
+    cursor: pointer;
+  }
+  .tui-image-editor-container
+    .tui-image-editor-header-buttons
+    .WallzoePhotoEditorShareLabel {
+    margin-left: 15px;
+  }
+  .tui-image-editor-container
+    .tui-image-editor-header-buttons
+    .load_button_wrapper {
+    background-color: transparent !important;
+    color: #eee !important;
+    font-size: 1.2rem !important;
+    padding: 8px 20px !important;
+  }
+  .tui-image-editor-container
+    .tui-image-editor-header-buttons
+    .load_button_wrapper
+    input {
+    font-size: 0;
+    cursor: pointer;
+  }
+  .tui-image-editor-container
+    .tui-image-editor-header-buttons
+    .WallzoePhotoEditorFacebookShareButton {
+    padding: 4px 10px;
+    font-size: 1rem;
+  }
+
+  .WallzoePhotoEditorShareLabel {
+    color: #eee;
+    display: inline-block;
+    line-height: 1.5;
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "facebook": {
+    "provider": "facebook",
+    "brandColor": "#4267B2",
+    "pageAuthPath": "/auth/facebook/page",
+    "groupAuthPath": "/auth/facebook/group"
+  },
+  "instagram": {
+    "provider": "instagram",
+    "brandColor": "#E94057",
+    "callbackPath": "/auth/instagram/callback"
+  },
+  "twitter": {
+    "provider": "twitter",
+    "brandColor": "#1DA1F2",
+    "callbackPath": "/auth/twitter/callback"
+  },
+  "linkedin": {
+    "provider": "linkedin",
+    "brandColor": "#003F67",
+    "callbackPath": "/auth/linkedin/callback"
+  }
+}

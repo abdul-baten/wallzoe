@@ -1,0 +1,56 @@
+.burgerMenuContainer {
+  display: inline-block;
+  cursor: pointer;
+  position: fixed;
+  top: -45px;
+  right: -45px;
+  z-index: 9999;
+  padding: 45px;
+	background-color: #1c7cd6;
+	border-radius: 100%;
+}
+
+.burgerMenu,
+.burgerMenuOpen {
+  position: relative;
+  top: 18px;
+  left: -20px;
+}
+
+.bar1 {
+  width: 25px;
+  height: 3px;
+  background-color: #fff;
+  margin: 4px 0;
+  transition: 0.4s;
+}
+
+.bar2 {
+  width: 25px;
+  height: 3px;
+  background-color: #fff;
+  margin: 4px 0;
+  transition: 0.4s;
+}
+
+.bar3 {
+  width: 25px;
+  height: 3px;
+  background-color: #fff;
+  margin: 4px 0;
+  transition: 0.4s;
+}
+
+.burgerMenuOpen .bar1 {
+  -webkit-transform: rotate(-45deg) translate(-4px, 4px);
+  transform: rotate(-45deg) translate(-4px, 4px);
+}
+
+.burgerMenuOpen .bar2 {
+  opacity: 0;
+}
+
+.burgerMenuOpen .bar3 {
+  -webkit-transform: rotate(45deg) translate(-6px, -6px);
+  transform: rotate(45deg) translate(-6px, -6px);
+}

@@ -1,0 +1,11 @@
+# Start
+
+# Appealing color combinaion
+# Choose font
+# Apply font
+# Stylyze button details
+# Stylyze icon details
+# Remove reactjs-file-uploader and it's component if not used
+# replace react-dropzone-uploader with react-dropzone
+
+# End

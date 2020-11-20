@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "name": "To-dos",
+    "desc": "Make lists of work that needs to get done, assign items, set due dates, and discuss.",
+    "link": "/todosets"
+  },
+  {
+    "id": 2,
+    "name": "Schedule",
+    "desc": "Set important dates on a shared schedule.Subscribe to events in Google Cal, iCal, or Outlook.",
+    "link": "/schedules"
+  },
+  {
+    "id": 3,
+    "name": "Docs & Files",
+    "desc": "Share docs, files, images, and spreadsheets.Oranize in folders so they are easy to find.",
+    "link": "/docs"
+  }
+]

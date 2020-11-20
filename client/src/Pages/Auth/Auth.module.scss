@@ -1,0 +1,32 @@
+.AuthPage {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  background-color: #01012e;
+  .Background {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    z-index: 1;
+  }
+  .AuthContent {
+    position: relative;
+    z-index: 11;
+    background-color: #fff;
+    height: 100vh;
+    box-shadow: 5px 0px 10px rgba(0, 0, 0, 0.3);
+    padding: 4rem 2rem;
+    display: flex;
+    overflow-y: auto;
+  }
+  .AuthInfo {
+    position: relative;
+    z-index: 11;
+    height: 100vh;
+    padding: 4rem 3rem;
+  }
+}

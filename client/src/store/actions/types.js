@@ -1,0 +1,41 @@
+// Authentication
+export const TOGGLE_SIGN_UP = 'TOGGLE_SIGN_UP'
+export const TOGGLE_SIGN_IN = 'TOGGLE_SIGN_IN'
+
+// fields
+export const USERNAME = 'USERNAME'
+export const EMAIL = 'EMAIL'
+export const PASSWORD = 'PASSWORD'
+export const CONFIRM_PASSWORD = 'CONFIRM_PASSWORD'
+export const USERNAME_OR_EMAIL = 'USERNAME_OR_EMAIL'
+export const SIGN_IN_PASSWORD = 'SIGN_IN_PASSWORD'
+
+// general types
+export const DIALOG_OPEN = 'DIALOG_OPEN'
+export const DIALOG_CLOSE = 'DIALOG_CLOSE'
+export const APPS_MENU_OPEN = 'APPS_MENU_OPEN'
+export const APPS_MENU_CLOSE = 'APPS_MENU_CLOSE'
+
+// scheduler types
+export const ADD_POST_DIALOG_OPEN = 'ADD_POST_DIALOG_OPEN'
+export const ADD_POST_DIALOG_CLOSE = 'ADD_POST_DIALOG_CLOSE'
+export const SELECTED_SM_ACCOUNT = 'SELECTED_SM_ACCOUNT'
+export const SCHEDULE_AT = 'SCHEDULE_AT'
+export const SCHEDULE_TIMEZONE = 'SCHEDULE_TIMEZONE'
+export const SCHEDULE_FOR = 'SCHEDULE_FOR'
+export const SCHEDULE_ID = 'SCHEDULE_ID'
+export const SCHEDULE_TOKEN = 'SCHEDULE_TOKEN'
+export const SCHEDULE_FILES = 'SCHEDULE_FILES'
+export const SCHEDULE_TEXT_CONTENT = 'SCHEDULE_TEXT_CONTENT'
+
+// Project types
+export const PROJECTNAME = 'PROJECTNAME'
+export const PROJECTTODONAME = 'PROJECTTODONAME'
+
+// Post
+
+// photo editor
+export const PHOTO_EDITOR_OPEN = 'PHOTO_EDITOR_OPEN'
+export const PHOTO_EDITOR_CLOSE = 'PHOTO_EDITOR_CLOSE'
+export const CURRENT_IMAGE = 'CURRENT_IMAGEs'
+export const EDITOR_IMAGE = 'EDITOR_IMAGE'

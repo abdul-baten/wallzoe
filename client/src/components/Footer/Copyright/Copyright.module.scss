@@ -1,0 +1,16 @@
+@import "../../../sass/variable.scss";
+
+.FooterCopyright {
+  text-align: center;
+  margin-top: 19px;
+  .CopyrightText {
+    margin-bottom: 0;
+    margin-top: 10px;
+    padding: 0 20px;
+  }
+}
+.FooterLogo {
+  img {
+    width: 140px;
+  }
+}

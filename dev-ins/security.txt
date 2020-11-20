@@ -1,0 +1,14 @@
+# Start
+
+# Analyze some module for security
+  * helmet
+  * cors
+  * lusca
+  * express-validator
+# Implement suitable modules for increase security
+# Validate all input fields
+# Date time picker has an alpha version of dependency i.e date-fns
+# Prevent CSRF Attack
+# Allow CORS for frontend server only 
+
+# End

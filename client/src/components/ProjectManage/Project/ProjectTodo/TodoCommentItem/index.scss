@@ -1,0 +1,42 @@
+.thread-entry {
+  margin: 0 0 1.2em 0;
+  padding: 1.2em 1.2em 0.2em;
+  min-height: 5rem;
+  position: relative;
+  background: #faf8f7;
+  border-radius: 1rem;
+  &::before {
+    content: '';
+    display: table;
+  }
+}
+.author-balloon {
+  position: absolute;
+  top:0.4em;
+  left: -3.5rem;
+  display: inline-block;
+  padding: 0 2px;
+  border: 0;
+  border-radius: 3em;
+  color: #fff;
+  font-size: 1.5em;
+  font-weight: bold;
+  text-align: center;
+  min-width: 3.8rem;
+  height: 3.8rem;
+  margin-right: 0.5rem;
+  line-height: 3.8rem;
+  vertical-align: inherit;
+}
+.author-balloon-mega {
+  background: #910ffe;
+}
+.thread-entry__options {
+  position: absolute;
+  top: 0.4em;
+  right: 0.5rem;
+}
+.thread-entry__time {
+  font-size: 0.8em;
+  color: rgba(0,0,0,0.5);
+}

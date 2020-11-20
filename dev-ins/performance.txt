@@ -1,0 +1,12 @@
+# Start
+
+# Analyze request-promise-native for interact with facebook
+# Analyze Promise execution advantage
+  * bluebird
+  * bluebird with mongoose
+# Unit testing && Error checking
+# Lazy loading some modules
+# Data query from mongodb with indexing
+# How much effect import { Express } from "express" several file
+
+# End

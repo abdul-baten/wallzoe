@@ -1,0 +1,64 @@
+#wallzoeScheduler {
+  position: relative;
+  .preventSelectOverlay {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 247, 254, 0.7);
+    z-index: 9;
+    padding-top: 30vh;
+    h2 {
+      display: inline-block;
+      color: #222;
+      font-weight: 400;
+      letter-spacing: 3px;
+      font-size: 1.2rem;
+      padding: 6px 2.5rem;
+      text-align: center;
+      background-color: #ffa000;
+      border-radius: 5px;
+      word-spacing: 5px;
+    }
+  }
+  .rbc-allday-cell {
+    display: none;
+  }
+  .rbc-selected-cell {
+    background-color: transparent;
+    &.rbc-off-range-bg {
+      background-color: #e5e5e5;
+    }
+  }
+  .rbc-row-bg {
+    .rbc-off-range-bg {
+      background-color: transparent;
+    }
+  }
+  .rbc-row-content {
+    .rbc-off-range {
+      color: #888;
+    }
+  }
+  .rbc-row-segment {
+    .rbc-event {
+      border-radius: 20px;
+      font-size: 0.85rem;
+      padding: 3px 15px;
+      text-align: center;
+      width: 80%;
+      display: block;
+      margin: 15px auto 5px auto;
+    }
+    .rbc-show-more {
+      text-align: center;
+    }
+  }
+  .disabledPrevDate {
+    &.rbc-off-range-bg {
+      background-color: #eee;
+    }
+    background-color: #eee;
+  }
+}

@@ -1,0 +1,15 @@
+.assignItem {
+  padding-left: 0.8rem;
+  position: relative;
+}
+.assignDesc {
+  color: #000;
+}
+.assignDate, .assignUser {
+  display: inline-block;
+  position: relative;
+  font-size: 0.875em;
+  line-height: 1.5;
+  color: #877457;
+  margin-left: 0.5em;
+}

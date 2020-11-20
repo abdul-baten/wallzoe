@@ -1,0 +1,7 @@
+# Start
+
+# Apply pro/trusted ssl
+# Make "app" folder instead of "dist"
+# Disable sourcemap from typescript
+
+# End

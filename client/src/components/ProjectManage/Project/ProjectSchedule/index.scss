@@ -1,0 +1,100 @@
+.panelTodo {
+  margin-top: 0.2rem;
+  padding: 4rem;
+  width: 90%;
+  box-shadow: 0 -1px rgba(0,0,0,0.05), 0 1px 4px rgba(0,0,0,0.1), 0 10px 30px #f3ece8;
+  border-radius: 0.2em 0.2em 0 0;
+  background: #fff;
+  position: relative;
+  max-width: 58em;
+  margin-bottom: 0;
+  min-height: 100vh;
+  margin: 0 auto 10rem;
+}
+.header {
+  margin-bottom: 2.5em;
+  padding-bottom: 0.625rem;
+  border-bottom: 3px solid #283c46;
+  position: relative;
+  text-align: center;
+}
+.title {
+  margin-left: 16rem;
+  margin-right: 16rem;
+  overflow: hidden;
+  font-size: 2em;
+  font-weight: 700;
+  letter-spacing: -0.5px;
+  line-height: 1;
+  padding-bottom: .5rem;
+  text-align: center;
+}
+.panelBreadCrumb {
+  max-width: 58rem;
+  width: 90%;
+  margin: 0 auto;
+  margin-bottom: 1rem;
+}
+.breadCrumbItem {
+  display: inline-flex;
+  color: #004f62;
+  background: white;
+  align-items: center;
+  &::after {
+    content: '';
+    display: block;
+    width: 0.8rem;
+    height: 2rem;
+    z-index: 1;
+    margin-left: .5rem;
+    clip-path: polygon(45% 0, 100% 50%, 45% 100%, 0% 100%, 55% 50%, 0% 0%);
+    background: #b3cad0;
+  }
+}
+.breadCrumbName {
+  display: flex;
+  align-items: center;
+  padding: 0.5rem 1.5rem;
+}
+
+#projectScheduler {
+  .rbc-allday-cell {
+    display: none;
+  }
+  .rbc-selected-cell {
+    background-color: transparent;
+    &.rbc-off-range-bg {
+      background-color: #e5e5e5;
+    }
+  }
+  .rbc-row-bg {
+    .rbc-off-range-bg {
+      background-color: transparent;
+    }
+  }
+  .rbc-row-content {
+    .rbc-off-range {
+      color: #888;
+    }
+  }
+  .rbc-row-segment {
+    .rbc-event {
+      border-radius: 20px;
+      font-size: 0.85rem;
+      padding: 3px 15px;
+      text-align: center;
+      width: 80%;
+      display: block;
+      margin: 15px auto 5px auto;
+    }
+    .rbc-show-more {
+      text-align: center;
+    }
+  }
+  .disabledPrevDate {
+    &.rbc-off-range-bg {
+      background-color: #eee;
+    }
+    background-color: #eee;
+  }
+}

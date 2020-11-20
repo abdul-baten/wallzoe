@@ -1,0 +1,17 @@
+@import "./sass/variable";
+.WallzoeApp {
+  display: block;
+  width: 100%;
+  padding-left: $leftIndentForDesktop;
+  padding-top: 85px;
+  background-color: $mainBackColor;
+  min-height: 100vh;
+}
+body {
+  button:active,
+  a:active,
+  button:focus,
+  a:focus {
+    outline: none;
+  }
+}

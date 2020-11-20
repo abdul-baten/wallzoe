@@ -1,0 +1,10 @@
+# Start
+
+# Button hover effect
+# Others component hover effect
+# Analyze effective appearance of components
+# Analyze smooth appearance of components
+# Apply animations
+# block temp mail for registration
+
+# End

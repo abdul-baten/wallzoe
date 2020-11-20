@@ -1,0 +1,136 @@
+.panelTodo {
+  margin-top: 0.2rem;
+  padding: 4rem;
+  width: 90%;
+  box-shadow: 0 -1px rgba(0,0,0,0.05), 0 1px 4px rgba(0,0,0,0.1), 0 10px 30px #f3ece8;
+  border-radius: 0.2em 0.2em 0 0;
+  background: #fff;
+  position: relative;
+  max-width: 58em;
+  margin-bottom: 0;
+  min-height: 100vh;
+  margin: 0 auto 10rem;
+}
+.header {
+  margin-bottom: 2.5em;
+  padding-bottom: 0.625rem;
+  border-bottom: 3px solid #283c46;
+  position: relative;
+  text-align: center;
+}
+.title {
+  margin-left: 16rem;
+  margin-right: 16rem;
+  overflow: hidden;
+  font-size: 2em;
+  font-weight: 700;
+  letter-spacing: -0.5px;
+  line-height: 1;
+  padding-bottom: .5rem;
+  text-align: center;
+}
+.panelBreadCrumb {
+  max-width: 58rem;
+  width: 90%;
+  margin: 0 auto;
+  margin-bottom: 1rem;
+}
+.breadCrumbItem {
+  display: inline-flex;
+  color: #004f62;
+  background: white;
+  align-items: center;
+  &::after {
+    content: '';
+    display: block;
+    width: 0.8rem;
+    height: 2rem;
+    z-index: 1;
+    margin-left: .5rem;
+    clip-path: polygon(45% 0, 100% 50%, 45% 100%, 0% 100%, 55% 50%, 0% 0%);
+    background: #b3cad0;
+  }
+}
+.breadCrumbName {
+  display: flex;
+  align-items: center;
+  padding: 0.5rem 1.5rem;
+}
+.todoForm {
+  border: 1px solid #e5e5e5;
+  border-radius: .6rem;
+  margin: .625em 2em 2.5em 2em;
+}
+.todoFormHeader {
+  padding-bottom: .5rem;
+  padding: .75rem 2.7rem 0;
+  h3 {
+    font-size: 1.17em;
+    font-weight: bold;
+  }
+}
+.todoFormInput {
+  padding: 0;
+  background-color: rgba(255,255,255,0);
+  box-shadow: none;
+  border: 0;
+  border-radius: 0;
+  outline: 0;
+  width: 100%;
+  transition: box-shadow 0.15s ease-in-out;
+  resize: none;
+  line-height: 1.5;
+}
+.todoFormDetails {
+  padding: 0 2.8rem 0.5rem;
+}
+.todoFormDesc {
+  border-top: 1px solid rgba(0,0,0,.05);
+  padding-top: .5em;
+}
+.collapsed {
+  display: block;
+}
+.expanded {
+  display: none;
+}
+.todoFormSubmit {
+  margin-bottom: .625em;
+  margin-top: 1.25em;
+}
+.todoFormInputSubmit {
+  background-color: #2da562;
+  border: 1px solid #2da562;
+  color: #fff;
+  font-size: 1rem;
+  border-radius: 1.5em;
+  padding: 0.3em 1em;
+  text-align: center;
+  text-decoration: none;
+  white-space: normal;
+}
+.todoFormInputAddDetail {
+  width: 100%;
+  cursor: pointer;
+  color: #a9a9a9;
+  background-color: #fff;
+  border:0;
+  border-radius: 0;
+  box-shadow: none;
+}
+.todoNewList {
+  position: absolute;
+  bottom: 1.4rem;
+  left: 0;
+  margin: 0;
+}
+.todoFormCancelBtn {
+  display: inline-block;
+  margin-left: .5em; 
+  padding: 0.3em 1em;
+  border-radius: 1.5em;
+  text-align: center;
+  color: #2da562;
+  border: 1px solid #2da562;
+  background-color: #fff;
+}

@@ -1,0 +1,14 @@
+{
+  "nodeEnv": "NODE_ENV",
+  "debug": "DEBUG",
+  "serverURL": "SERVER_URL",
+  "clientURL": "CLIENT_URL",
+  "port": "PORT",
+  "jwtSecret": "JWT_SECRET",
+  "sessName": "SESS_NAME",
+  "sessSecret": "SESS_SECRET",
+  "mongoHost": "MONGO_HOST",
+  "mongoDB": "MONGO_DB",
+  "mongoUsername": "MONGO_USERNAME",
+  "mongoPassword": "MONGO_PASSWORD"
+}

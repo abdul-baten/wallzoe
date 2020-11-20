@@ -1,0 +1,13 @@
+@import '../../../sass/variable.scss';
+.STIcon {
+    color: $light_gray;
+    font-size: 1.3rem;
+    text-align: left;
+    display: block;
+    opacity: 0.8;
+}
+
+.STIcon:hover {
+    color: $iconHoverColor;
+    opacity: 1;
+}

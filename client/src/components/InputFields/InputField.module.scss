@@ -1,0 +1,29 @@
+.SingleFieldWrapper {
+  .SingleField {
+    margin-bottom: 6px;
+  }
+  .errMsg {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    p {
+      margin-bottom: 0;
+    }
+    ul {
+      padding-left: 0;
+      p {
+        margin-bottom: 8px;
+      }
+      li {
+        margin-left: 15px;
+        margin-bottom: 5px;
+        list-style: square;
+      }
+    }
+  }
+  .SubmitBtn {
+    margin-top: 0.8rem;
+    padding-top: 0.8rem;
+    font-size: 1rem;
+    padding: 0.7rem;
+  }
+}
